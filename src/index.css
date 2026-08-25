@@ -1,0 +1,99 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Shabnam";
+  src:
+    url("./assets/fonts/Shabnam.woff2") format("woff2"),
+    url("./assets/fonts/Shabnam.woff") format("woff"),
+    url("./assets/fonts/Shabnam.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "Shabnam", "Vazirmatn", system-ui, sans-serif;
+  --shadow-glow: 0 0 60px -12px rgba(37, 99, 235, 0.45);
+  --shadow-card: 0 8px 30px -8px rgba(15, 23, 42, 0.12);
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-spin-slow: spin 14s linear infinite;
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-14px);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-slate-50);
+  color: var(--color-slate-900);
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: var(--color-blue-200);
+  color: var(--color-blue-950);
+}
+
+/* thin blue-tinted scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-slate-50);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-blue-200);
+  border-radius: 999px;
+  border: 2px solid var(--color-slate-50);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-blue-300);
+}
+
+@utility bg-grid {
+  background-image:
+    linear-gradient(to left, rgba(37, 99, 235, 0.06) 1px, transparent 1px),
+    linear-gradient(to top, rgba(37, 99, 235, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+@utility gradient-text {
+  background-image: linear-gradient(
+    90deg,
+    var(--color-blue-700),
+    var(--color-sky-500)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@utility glass-card {
+  background-color: rgb(255 255 255 / 70%);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgb(255 255 255 / 60%);
+  box-shadow: var(--shadow-card);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
