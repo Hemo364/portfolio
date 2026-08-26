@@ -10,11 +10,11 @@ export interface Project {
 export const PROJECTS: Project[] = [
   {
     id: "p1",
-    title: "نمونه‌کار شماره یک",
+    title: "سایت فروشگاهی موتورسیکلت",
     description:
-      "یک رابط کاربری مدرن و واکنش‌گرا ساخته‌شده با React و TypeScript، با تمرکز بر تجربه کاربری روان.",
+      "اجرا پروژه فروشگاه موتورسیکلت ARCH در مهرشهر کرج",
     tags: ["React", "TypeScript", "Tailwind CSS"],
-    href: "#",
+    href: "https://arch-shop-ten.vercel.app/",
   },
   {
     id: "p2",
