@@ -60,7 +60,7 @@ export default function Hero() {
             variants={item}
             className="mt-5 max-w-xl text-lg font-medium text-blue-700"
           >
-           دانشجو مهندسی کامپیوتر دانشگاه صنعتی شیراز و توسعه دهنده فرانت اند
+           دانشجو مهندسی کامپیوتر صنعتی شیراز و توسعه دهنده فرانت اند
           </motion.p>
 
           <motion.p variants={item} className="mt-3 max-w-xl leading-8 text-slate-500">
