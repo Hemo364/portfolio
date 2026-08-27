@@ -6,7 +6,7 @@ export interface Project {
   href: string
 }
 
-// لینک هر پروژه فعلاً موقتی است — با تکمیل هر نمونه‌کار، مقدار href را با آدرس واقعی جایگزین کنید.
+
 export const PROJECTS: Project[] = [
   {
     id: "p1",
@@ -18,11 +18,11 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "p2",
-    title: "نمونه‌کار شماره دو",
+    title: "پروژه پنل ادمین",
     description:
-      "یک اپلیکیشن وب با Next.js که روی کارایی، سئو و طراحی تمیز تمرکز دارد.",
-    tags: ["Next.js", "React", "Tailwind CSS"],
-    href: "#",
+      "اجرا پروژه  پنل ادمین برای فروشگاه کیف و کفش",
+    tags: ["Javascript", "React", "Tailwind CSS"],
+    href: "https://admin-panel-three-pi-40.vercel.app/dashboard",
   },
   {
     id: "p3",
