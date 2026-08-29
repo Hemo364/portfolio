@@ -22,7 +22,7 @@ export const PROJECTS: Project[] = [
     description:
       "اجرا پروژه  پنل ادمین برای فروشگاه کیف و کفش",
     tags: ["Javascript", "React", "Tailwind CSS"],
-    href: "https://admin-panel-three-pi-40.vercel.app/dashboard",
+    href: "https://admin-panel-xi-khaki.vercel.app/tasks",
   },
   {
     id: "p3",
