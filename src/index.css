@@ -17,6 +17,21 @@
   --shadow-card: 0 8px 30px -8px rgba(15, 23, 42, 0.12);
   --animate-float: float 6s ease-in-out infinite;
   --animate-spin-slow: spin 14s linear infinite;
+  --animate-steam: steam 2.4s ease-in-out infinite;
+
+  @keyframes steam {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    40% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-18px);
+    }
+  }
 
   @keyframes float {
     0%,

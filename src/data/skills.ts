@@ -7,6 +7,7 @@ import {
   SiReact,
   SiTailwindcss,
   SiTypescript,
+  SiWordpress,
 } from "react-icons/si"
 
 export interface Skill {
@@ -26,4 +27,5 @@ export const SKILLS: Skill[] = [
   { id: "tailwind", label: "تیلویند سی‌اس‌اس", icon: SiTailwindcss, color: "#06B6D4", level: 93 },
   { id: "html", label: "اچ‌تی‌ام‌ال", icon: SiHtml5, color: "#E34F26", level: 97 },
   { id: "css", label: "سی‌اس‌اس", icon: SiCss, color: "#1572B6", level: 94 },
+  {id:"wordpress",label:"ورد پرس",icon:SiWordpress,color:"#3858E9", level:100},
 ]

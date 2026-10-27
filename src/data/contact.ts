@@ -1,6 +1,7 @@
 import type { IconType } from "react-icons"
+import { FaPhoneAlt } from "react-icons/fa"
 import { HiOutlineEnvelope } from "react-icons/hi2"
-import { SiInstagram, SiTelegram } from "react-icons/si"
+import { SiTelegram } from "react-icons/si"
 
 export interface ContactLink {
   id: string
@@ -13,20 +14,20 @@ export interface ContactLink {
 
 export const CONTACT_LINKS: ContactLink[] = [
   {
+    id: "phone",
+    label: "شماره تماس",
+    value: "09159799345",
+    href: "tel:+989159799345",
+    icon: FaPhoneAlt,
+    color: "#2563EB",
+  },
+  {
     id: "telegram",
     label: "تلگرام",
     value: "@hesam_364",
     href: "https://t.me/hesam_364",
     icon: SiTelegram,
     color: "#26A5E4",
-  },
-  {
-    id: "instagram",
-    label: "اینستاگرام",
-    value: "hsm_364m",
-    href: "https://instagram.com/hsm_364m",
-    icon: SiInstagram,
-    color: "#E1306C",
   },
   {
     id: "email",

@@ -21,7 +21,7 @@ export default function Contact() {
       <div className="relative mx-auto max-w-6xl px-5 sm:px-8">
         <SectionHeading
           eyebrow="تماس با ما"
-          title="بیایید با هم صحبت کنیم"
+          title="بیا باهم حرف بزنیم"
           subtitle="برای همکاری، پیشنهاد پروژه یا فقط یک سلام دوستانه، از یکی از راه‌های زیر با من در ارتباط باشید."
         />
 

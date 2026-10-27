@@ -18,18 +18,18 @@ export const PROJECTS: Project[] = [
   },
   {
     id: "p2",
+    title: "فروشگاه لوازم آرایشی بهداشتی کالا بیوتی",
+    description:
+      "طراحی سایت فروشگاه کالا بیوتی در شهرستان نیشابور",
+    tags: ["wordpress"],
+    href: "https://kala-beauty.ir",
+  },
+  {
+    id: "p3",
     title: "پروژه پنل ادمین",
     description:
       "اجرا پروژه  پنل ادمین برای فروشگاه کیف و کفش",
     tags: ["Javascript", "React", "Tailwind CSS"],
     href: "https://admin-panel-xi-khaki.vercel.app/tasks",
-  },
-  {
-    id: "p3",
-    title: "نمونه‌کار شماره سه",
-    description:
-      "پیاده‌سازی یک صفحه فرود تعاملی با انیمیشن‌های ظریف و طراحی UI/UX استاندارد.",
-    tags: ["JavaScript", "HTML5", "CSS3"],
-    href: "#",
   },
 ]
