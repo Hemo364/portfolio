@@ -17,6 +17,14 @@ export const PROJECTS: Project[] = [
     href: "https://arch-shop-ten.vercel.app/",
   },
   {
+    id:"p3",
+    title:"پنل ادمین فروشگاه RCH",
+    description:"مدیریت فروشگاه\nیوزرنیم: Admin | پسورد: Admin@12345",
+    tags:["React","TypeScript","Tailwind CSS"],
+    href:"https://arch-shop-ten.vercel.app/admin"
+
+  },
+  {
     id: "p2",
     title: "فروشگاه لوازم آرایشی بهداشتی کالا بیوتی",
     description:
