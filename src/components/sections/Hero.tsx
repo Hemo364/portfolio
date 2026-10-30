@@ -41,13 +41,7 @@ export default function Hero() {
           animate="visible"
           className="flex flex-1 flex-col items-center text-center lg:items-start lg:text-right"
         >
-          <motion.span
-            variants={item}
-            className="inline-flex items-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-4 py-1.5 text-sm font-medium text-blue-700"
-          >
-            <span className="h-2 w-2 rounded-full bg-blue-500 animate-pulse" />
-            در دسترس برای همکاری
-          </motion.span>
+          
 
           <motion.h1
             variants={item}
