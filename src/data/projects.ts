@@ -33,7 +33,15 @@ export const PROJECTS: Project[] = [
     href: "https://kala-beauty.ir",
   },
   {
-    id: "p3",
+    id:"p3",
+    title:"مرجع آکورد آهنگ‌های فارسی برای نوازندگان گیتار",
+    description:"طراحی و توسعهٔ سایت آکورد آهنگ‌های فارسی با دسته‌بندی خواننده‌ها و صفحهٔ اختصاصی هر آهنگ",
+    tags:["wordpress"],
+    href:"https://accordfarsi.ifree.page/"
+
+  },
+  {
+    id: "p4",
     title: "پروژه پنل ادمین",
     description:
       "اجرا پروژه  پنل ادمین برای فروشگاه کیف و کفش",
