@@ -16,8 +16,8 @@ export const CONTACT_LINKS: ContactLink[] = [
   {
     id: "phone",
     label: "شماره تماس",
-    value: "09159799345",
-    href: "tel:+989159799345",
+    value: "09031259345",
+    href: "tel:+989031259345",
     icon: FaPhoneAlt,
     color: "#2563EB",
   },
