@@ -12,13 +12,13 @@ export const PROJECTS: Project[] = [
     id: "p1",
     title: "سایت فروشگاهی موتورسیکلت",
     description:
-      "اجرا پروژه فروشگاه موتورسیکلت ARCH در مهرشهر کرج",
+      "پیاده سازی پروژه فروشگاه موتورسیکلت ARCH در مهرشهر کرج",
     tags: ["React", "TypeScript", "Tailwind CSS"],
     href: "https://arch-shop-ten.vercel.app/",
   },
   {
     id:"p3",
-    title:"پنل ادمین فروشگاه RCH",
+    title:"پنل ادمین فروشگاه ARCH",
     description:"مدیریت فروشگاه\nیوزرنیم: Admin | پسورد: Admin@12345",
     tags:["React","TypeScript","Tailwind CSS"],
     href:"https://arch-shop-ten.vercel.app/admin"
